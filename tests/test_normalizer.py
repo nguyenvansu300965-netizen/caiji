@@ -53,7 +53,7 @@ def test_local_number_supports_global_country_names():
     lead = normalize_lead(
         LeadRecord(
             company_name="India Example",
-            phone="09876543210",
+            phone="9876543210",
             country="印度",
             source_url="https://example.com",
             source_type="test",
