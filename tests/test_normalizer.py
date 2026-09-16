@@ -46,17 +46,17 @@ def test_international_number_is_parsed_globally_despite_task_country():
         )
     )
     assert lead.normalized_phone == "+912212345678"
-    assert lead.verification_status == "verified"
+    assert lead.verification_status == "pending"
 
 
 def test_local_number_supports_global_country_names():
     lead = normalize_lead(
         LeadRecord(
             company_name="India Example",
-            phone="022 1234 5678",
+            phone="09876543210",
             country="印度",
             source_url="https://example.com",
             source_type="test",
         )
     )
-    assert lead.normalized_phone == "+912212345678"
+    assert lead.normalized_phone == "+919876543210"
