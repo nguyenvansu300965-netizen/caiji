@@ -1,0 +1,1196 @@
+('C:\\caiji\\build\\trade_lead_collector\\外贸客户采集软件_v10.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz', 'C:\\caiji\\build\\trade_lead_collector\\PYZ-00.pyz', 'PYZ'),
+  ('struct',
+   'C:\\caiji\\build\\trade_lead_collector\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\caiji\\build\\trade_lead_collector\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\caiji\\build\\trade_lead_collector\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\caiji\\build\\trade_lead_collector\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\caiji\\build\\trade_lead_collector\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Program '
+   'Files\\python\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Program '
+   'Files\\python\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Program '
+   'Files\\python\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_cryptography_openssl',
+   'C:\\Program '
+   'Files\\python\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_cryptography_openssl.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Program '
+   'Files\\python\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Program '
+   'Files\\python\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_pywintypes',
+   'C:\\Program '
+   'Files\\python\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_pywintypes.py',
+   'PYSOURCE'),
+  ('pyi_rth_pythoncom',
+   'C:\\Program '
+   'Files\\python\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_pythoncom.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyside6',
+   'C:\\Program '
+   'Files\\python\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyside6.py',
+   'PYSOURCE'),
+  ('main', 'C:\\caiji\\src\\main.py', 'PYSOURCE'),
+  ('python38.dll', 'C:\\Program Files\\python\\python38.dll', 'BINARY'),
+  ('pywin32_system32\\pywintypes38.dll',
+   'C:\\Program '
+   'Files\\python\\Lib\\site-packages\\pywin32_system32\\pywintypes38.dll',
+   'BINARY'),
+  ('pywin32_system32\\pythoncom38.dll',
+   'C:\\Program '
+   'Files\\python\\Lib\\site-packages\\pywin32_system32\\pythoncom38.dll',
+   'BINARY'),
+  ('PySide6\\opengl32sw.dll',
+   'C:\\Program Files\\python\\Lib\\site-packages\\PySide6\\opengl32sw.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qcertonlybackend.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\tls\\qcertonlybackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qschannelbackend.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\tls\\qschannelbackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\styles\\qwindowsvistastyle.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\styles\\qwindowsvistastyle.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qpdf.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qpdf.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qgif.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qsvg.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwebp.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtga.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qwindows.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qicns.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qminimal.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qico.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtiff.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('_lzma.pyd', 'C:\\Program Files\\python\\DLLs\\_lzma.pyd', 'EXTENSION'),
+  ('_bz2.pyd', 'C:\\Program Files\\python\\DLLs\\_bz2.pyd', 'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Program Files\\python\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select.pyd', 'C:\\Program Files\\python\\DLLs\\select.pyd', 'EXTENSION'),
+  ('_socket.pyd', 'C:\\Program Files\\python\\DLLs\\_socket.pyd', 'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Program Files\\python\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Program Files\\python\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd', 'C:\\Program Files\\python\\DLLs\\_ssl.pyd', 'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Program Files\\python\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_queue.pyd', 'C:\\Program Files\\python\\DLLs\\_queue.pyd', 'EXTENSION'),
+  ('_ctypes.pyd', 'C:\\Program Files\\python\\DLLs\\_ctypes.pyd', 'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Program Files\\python\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd', 'C:\\Program Files\\python\\DLLs\\pyexpat.pyd', 'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Program Files\\python\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('win32\\win32wnet.pyd',
+   'C:\\Program Files\\python\\lib\\site-packages\\win32\\win32wnet.pyd',
+   'EXTENSION'),
+  ('win32\\win32api.pyd',
+   'C:\\Program Files\\python\\lib\\site-packages\\win32\\win32api.pyd',
+   'EXTENSION'),
+  ('win32com\\shell\\shell.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\win32comext\\shell\\shell.pyd',
+   'EXTENSION'),
+  ('win32\\win32trace.pyd',
+   'C:\\Program Files\\python\\lib\\site-packages\\win32\\win32trace.pyd',
+   'EXTENSION'),
+  ('Pythonwin\\win32ui.pyd',
+   'C:\\Program Files\\python\\lib\\site-packages\\Pythonwin\\win32ui.pyd',
+   'EXTENSION'),
+  ('win32\\_win32sysloader.pyd',
+   'C:\\Program Files\\python\\lib\\site-packages\\win32\\_win32sysloader.pyd',
+   'EXTENSION'),
+  ('duckdb\\duckdb.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\duckdb\\duckdb.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('sqlalchemy\\cyextension\\util.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\sqlalchemy\\cyextension\\util.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('sqlalchemy\\cyextension\\resultproxy.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\sqlalchemy\\cyextension\\resultproxy.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('sqlalchemy\\cyextension\\processors.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\sqlalchemy\\cyextension\\processors.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('sqlalchemy\\cyextension\\immutabledict.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\sqlalchemy\\cyextension\\immutabledict.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('sqlalchemy\\cyextension\\collections.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\sqlalchemy\\cyextension\\collections.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('greenlet\\_greenlet.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\greenlet\\_greenlet.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('nacl\\_sodium.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\nacl\\_sodium.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('_cffi_backend.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\_cffi_backend.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('cryptography\\hazmat\\bindings\\_openssl.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\cryptography\\hazmat\\bindings\\_openssl.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('bcrypt\\_bcrypt.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\bcrypt\\_bcrypt.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('MySQLdb\\_mysql.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\MySQLdb\\_mysql.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('_sqlite3.pyd',
+   'C:\\Program Files\\python\\DLLs\\_sqlite3.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PIL\\_webp.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PIL\\_imagingtk.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PIL\\_imaging.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Program Files\\python\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('lxml\\etree.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\lxml\\etree.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\_elementpath.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\lxml\\_elementpath.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\sax.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\lxml\\sax.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\objectify.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\lxml\\objectify.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\html\\diff.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\lxml\\html\\diff.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\html\\clean.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\lxml\\html\\clean.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\builder.cp38-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\lxml\\builder.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtCore.pyd',
+   'C:\\Program Files\\python\\lib\\site-packages\\PySide6\\QtCore.pyd',
+   'EXTENSION'),
+  ('shiboken6\\Shiboken.pyd',
+   'C:\\Program Files\\python\\lib\\site-packages\\shiboken6\\Shiboken.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtNetwork.pyd',
+   'C:\\Program Files\\python\\lib\\site-packages\\PySide6\\QtNetwork.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtWidgets.pyd',
+   'C:\\Program Files\\python\\lib\\site-packages\\PySide6\\QtWidgets.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtGui.pyd',
+   'C:\\Program Files\\python\\lib\\site-packages\\PySide6\\QtGui.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll', 'C:\\Program Files\\python\\VCRUNTIME140.dll', 'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Network.dll',
+   'C:\\Program Files\\python\\Lib\\site-packages\\PySide6\\Qt6Network.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Program Files\\python\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('shiboken6\\MSVCP140.dll',
+   'C:\\Program Files\\python\\Lib\\site-packages\\shiboken6\\MSVCP140.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Core.dll',
+   'C:\\Program Files\\python\\Lib\\site-packages\\PySide6\\Qt6Core.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Gui.dll',
+   'C:\\Program Files\\python\\Lib\\site-packages\\PySide6\\Qt6Gui.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Widgets.dll',
+   'C:\\Program Files\\python\\Lib\\site-packages\\PySide6\\Qt6Widgets.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Pdf.dll',
+   'C:\\Program Files\\python\\Lib\\site-packages\\PySide6\\Qt6Pdf.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Svg.dll',
+   'C:\\Program Files\\python\\Lib\\site-packages\\PySide6\\Qt6Svg.dll',
+   'BINARY'),
+  ('PySide6\\Qt6VirtualKeyboard.dll',
+   'C:\\Program '
+   'Files\\python\\Lib\\site-packages\\PySide6\\Qt6VirtualKeyboard.dll',
+   'BINARY'),
+  ('libcrypto-1_1.dll',
+   'C:\\Program Files\\python\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'C:\\Program Files\\python\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('libffi-7.dll', 'C:\\Program Files\\python\\DLLs\\libffi-7.dll', 'BINARY'),
+  ('win32\\pywintypes38.dll',
+   'C:\\Program Files\\python\\lib\\site-packages\\win32\\pywintypes38.dll',
+   'BINARY'),
+  ('Pythonwin\\mfc140u.dll',
+   'C:\\Program Files\\python\\lib\\site-packages\\Pythonwin\\mfc140u.dll',
+   'BINARY'),
+  ('sqlite3.dll', 'C:\\Program Files\\python\\DLLs\\sqlite3.dll', 'BINARY'),
+  ('PySide6\\VCRUNTIME140.dll',
+   'C:\\Program Files\\python\\lib\\site-packages\\PySide6\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PySide6\\VCRUNTIME140_1.dll',
+   'C:\\Program Files\\python\\lib\\site-packages\\PySide6\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PySide6\\pyside6.abi3.dll',
+   'C:\\Program Files\\python\\lib\\site-packages\\PySide6\\pyside6.abi3.dll',
+   'BINARY'),
+  ('PySide6\\MSVCP140.dll',
+   'C:\\Program Files\\python\\lib\\site-packages\\PySide6\\MSVCP140.dll',
+   'BINARY'),
+  ('shiboken6\\shiboken6.abi3.dll',
+   'C:\\Program '
+   'Files\\python\\Lib\\site-packages\\shiboken6\\shiboken6.abi3.dll',
+   'BINARY'),
+  ('python3.dll', 'C:\\Program Files\\python\\python3.dll', 'BINARY'),
+  ('shiboken6\\VCRUNTIME140_1.dll',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\shiboken6\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('shiboken6\\VCRUNTIME140.dll',
+   'C:\\Program Files\\python\\lib\\site-packages\\shiboken6\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PySide6\\MSVCP140_2.dll',
+   'C:\\Program Files\\python\\lib\\site-packages\\PySide6\\MSVCP140_2.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\ucrtbase.dll',
+   'BINARY'),
+  ('PySide6\\MSVCP140_1.dll',
+   'C:\\Program Files\\python\\Lib\\site-packages\\PySide6\\MSVCP140_1.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Quick.dll',
+   'C:\\Program Files\\python\\Lib\\site-packages\\PySide6\\Qt6Quick.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Qml.dll',
+   'C:\\Program Files\\python\\Lib\\site-packages\\PySide6\\Qt6Qml.dll',
+   'BINARY'),
+  ('api-ms-win-crt-multibyte-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-crt-multibyte-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-sysinfo-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-kernel32-legacy-l1-1-1.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-kernel32-legacy-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-1.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-fibers-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.20.8-hotspot\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('PySide6\\Qt6OpenGL.dll',
+   'C:\\Program Files\\python\\Lib\\site-packages\\PySide6\\Qt6OpenGL.dll',
+   'BINARY'),
+  ('PySide6\\Qt6QmlModels.dll',
+   'C:\\Program Files\\python\\Lib\\site-packages\\PySide6\\Qt6QmlModels.dll',
+   'BINARY'),
+  ('phonenumbers\\__init__.pyi',
+   'C:\\Program Files\\python\\lib\\site-packages\\phonenumbers\\__init__.pyi',
+   'DATA'),
+  ('phonenumbers\\asyoutypeformatter.pyi',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\phonenumbers\\asyoutypeformatter.pyi',
+   'DATA'),
+  ('phonenumbers\\carrier.pyi',
+   'C:\\Program Files\\python\\lib\\site-packages\\phonenumbers\\carrier.pyi',
+   'DATA'),
+  ('phonenumbers\\carrierdata\\__init__.pyi',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\phonenumbers\\carrierdata\\__init__.pyi',
+   'DATA'),
+  ('phonenumbers\\data\\__init__.pyi',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\phonenumbers\\data\\__init__.pyi',
+   'DATA'),
+  ('phonenumbers\\geocoder.pyi',
+   'C:\\Program Files\\python\\lib\\site-packages\\phonenumbers\\geocoder.pyi',
+   'DATA'),
+  ('phonenumbers\\geodata\\__init__.pyi',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\phonenumbers\\geodata\\__init__.pyi',
+   'DATA'),
+  ('phonenumbers\\geodata\\locale.pyi',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\phonenumbers\\geodata\\locale.pyi',
+   'DATA'),
+  ('phonenumbers\\phonemetadata.pyi',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\phonenumbers\\phonemetadata.pyi',
+   'DATA'),
+  ('phonenumbers\\phonenumber.pyi',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\phonenumbers\\phonenumber.pyi',
+   'DATA'),
+  ('phonenumbers\\phonenumbermatcher.pyi',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\phonenumbers\\phonenumbermatcher.pyi',
+   'DATA'),
+  ('phonenumbers\\phonenumberutil.pyi',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\phonenumbers\\phonenumberutil.pyi',
+   'DATA'),
+  ('phonenumbers\\prefix.pyi',
+   'C:\\Program Files\\python\\lib\\site-packages\\phonenumbers\\prefix.pyi',
+   'DATA'),
+  ('phonenumbers\\py.typed',
+   'C:\\Program Files\\python\\lib\\site-packages\\phonenumbers\\py.typed',
+   'DATA'),
+  ('phonenumbers\\re_util.pyi',
+   'C:\\Program Files\\python\\lib\\site-packages\\phonenumbers\\re_util.pyi',
+   'DATA'),
+  ('phonenumbers\\shortdata\\__init__.pyi',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\phonenumbers\\shortdata\\__init__.pyi',
+   'DATA'),
+  ('phonenumbers\\shortnumberinfo.pyi',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\phonenumbers\\shortnumberinfo.pyi',
+   'DATA'),
+  ('phonenumbers\\timezone.pyi',
+   'C:\\Program Files\\python\\lib\\site-packages\\phonenumbers\\timezone.pyi',
+   'DATA'),
+  ('phonenumbers\\tzdata\\__init__.pyi',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\phonenumbers\\tzdata\\__init__.pyi',
+   'DATA'),
+  ('phonenumbers\\unicode_util.pyi',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\phonenumbers\\unicode_util.pyi',
+   'DATA'),
+  ('phonenumbers\\util.pyi',
+   'C:\\Program Files\\python\\lib\\site-packages\\phonenumbers\\util.pyi',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\top_level.txt',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\WHEEL',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\WHEEL',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\INSTALLER',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\RECORD',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\RECORD',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\METADATA',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\METADATA',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\LICENSE',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\LICENSE',
+   'DATA'),
+  ('cryptography-3.0.dist-info\\INSTALLER',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\cryptography-3.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('cryptography-3.0.dist-info\\top_level.txt',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\cryptography-3.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('cryptography-3.0.dist-info\\WHEEL',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\cryptography-3.0.dist-info\\WHEEL',
+   'DATA'),
+  ('cryptography-3.0.dist-info\\AUTHORS.rst',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\cryptography-3.0.dist-info\\AUTHORS.rst',
+   'DATA'),
+  ('cryptography-3.0.dist-info\\LICENSE.PSF',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\cryptography-3.0.dist-info\\LICENSE.PSF',
+   'DATA'),
+  ('cryptography-3.0.dist-info\\METADATA',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\cryptography-3.0.dist-info\\METADATA',
+   'DATA'),
+  ('cryptography-3.0.dist-info\\RECORD',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\cryptography-3.0.dist-info\\RECORD',
+   'DATA'),
+  ('cryptography-3.0.dist-info\\LICENSE.BSD',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\cryptography-3.0.dist-info\\LICENSE.BSD',
+   'DATA'),
+  ('cryptography-3.0.dist-info\\LICENSE',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\cryptography-3.0.dist-info\\LICENSE',
+   'DATA'),
+  ('cryptography-3.0.dist-info\\LICENSE.APACHE',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\cryptography-3.0.dist-info\\LICENSE.APACHE',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_skeleton_for_xslt1.xsl',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_skeleton_for_xslt1.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\RNG2Schtrn.xsl',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\RNG2Schtrn.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\XSD2Schtrn.xsl',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\XSD2Schtrn.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_message.xsl',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_message.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\rng\\iso-schematron.rng',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\lxml\\isoschematron\\resources\\rng\\iso-schematron.rng',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_dsdl_include.xsl',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_dsdl_include.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\readme.txt',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\readme.txt',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_abstract_expand.xsl',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_abstract_expand.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_svrl_for_xslt1.xsl',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_svrl_for_xslt1.xsl',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'C:\\Program Files\\python\\lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('PySide6\\translations\\qt_he.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_he.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_hu.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_it.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_cs.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_lv.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fr.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_es.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_gl.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_gl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_nn.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_es.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ar.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ar.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_it.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pt_BR.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_hu.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sl.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_de.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_da.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_cs.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pt_PT.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_pt_PT.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_sk.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ja.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_tr.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_lv.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fa.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_fa.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pl.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ru.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_he.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_bg.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_gd.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ca.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_bg.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ca.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_hr.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_nl.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_tr.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ja.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_nl.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fi.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ko.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_pt_BR.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_it.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fa.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_fa.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ko.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sk.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pt_BR.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_nn.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_en.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_bg.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ar.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_da.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_de.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nn.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hr.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_tr.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_gd.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_gd.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_uk.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_CN.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_TW.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fr.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_de.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_lt.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hu.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sv.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_sv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nl.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_zh_TW.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fi.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_sk.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_uk.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ru.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_sl.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_gl.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ca.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ja.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pl.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ko.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_es.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_zh_CN.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_fr.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_en.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_cs.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_hr.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ru.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_da.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_uk.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_pl.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_zh_CN.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_zh_TW.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_en.qm',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\PySide6\\translations\\qt_en.qm',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\RECORD',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\setuptools-47.1.0.dist-info\\RECORD',
+   'DATA'),
+  ('pip-20.3.1.dist-info\\INSTALLER',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\pip-20.3.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('pip-20.3.1.dist-info\\WHEEL',
+   'C:\\Program Files\\python\\lib\\site-packages\\pip-20.3.1.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\top_level.txt',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\setuptools-47.1.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\METADATA',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\setuptools-47.1.0.dist-info\\METADATA',
+   'DATA'),
+  ('pip-20.3.1.dist-info\\LICENSE.txt',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\pip-20.3.1.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\WHEEL',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\setuptools-47.1.0.dist-info\\WHEEL',
+   'DATA'),
+  ('pip-20.3.1.dist-info\\RECORD',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\pip-20.3.1.dist-info\\RECORD',
+   'DATA'),
+  ('pip-20.3.1.dist-info\\METADATA',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\pip-20.3.1.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\LICENSE',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\setuptools-47.1.0.dist-info\\LICENSE',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\zip-safe',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\setuptools-47.1.0.dist-info\\zip-safe',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\entry_points.txt',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\setuptools-47.1.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('pip-20.3.1.dist-info\\entry_points.txt',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\pip-20.3.1.dist-info\\entry_points.txt',
+   'DATA'),
+  ('pip-20.3.1.dist-info\\REQUESTED',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\pip-20.3.1.dist-info\\REQUESTED',
+   'DATA'),
+  ('pip-20.3.1.dist-info\\top_level.txt',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\pip-20.3.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\INSTALLER',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\setuptools-47.1.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\dependency_links.txt',
+   'C:\\Program '
+   'Files\\python\\lib\\site-packages\\setuptools-47.1.0.dist-info\\dependency_links.txt',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\caiji\\build\\trade_lead_collector\\base_library.zip',
+   'DATA')],
+ 'python38.dll',
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
