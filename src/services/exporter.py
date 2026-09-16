@@ -7,7 +7,7 @@ from openpyxl import Workbook
 from sqlalchemy import func, select
 from sqlalchemy.orm import selectinload
 
-from src.db.models import Company, SourceRecord
+from src.db.models import Company, SourceRecord, TaskCompany
 from src.db.session import SessionLocal
 
 
@@ -38,6 +38,7 @@ def query_companies(
     source_type: str = "",
     status: str = "",
     relevance: str = "",
+    task_id: str = "",
     page: int = 1,
     page_size: int = 500,
 ) -> List[Company]:
@@ -50,6 +51,13 @@ def query_companies(
         statement = statement.where(Company.verification_status == status)
     if relevance:
         statement = statement.where(Company.relevance == relevance)
+    if task_id:
+        statement = statement.where(
+            Company.id.in_(
+                select(TaskCompany.company_id)
+                .where(TaskCompany.task_id == int(task_id))
+            )
+        )
     if source_type:
         statement = (
             statement.join(Company.sources)
@@ -71,6 +79,7 @@ def count_companies(
     source_type: str = "",
     status: str = "",
     relevance: str = "",
+    task_id: str = "",
 ) -> int:
     statement = select(func.count(func.distinct(Company.id)))
     if source_type:
@@ -83,6 +92,13 @@ def count_companies(
         statement = statement.where(Company.verification_status == status)
     if relevance:
         statement = statement.where(Company.relevance == relevance)
+    if task_id:
+        statement = statement.where(
+            Company.id.in_(
+                select(TaskCompany.company_id)
+                .where(TaskCompany.task_id == int(task_id))
+            )
+        )
     if source_type:
         statement = statement.where(SourceRecord.source_type == source_type)
     with SessionLocal() as session:
@@ -106,9 +122,15 @@ def _rows(companies: Iterable[Company]) -> Iterable[List[str]]:
 
 
 def _iter_export_rows(filters: Dict[str, str]):
+    task_id = filters.get("task_id", "")
+    source_condition = SourceRecord.company_id == Company.id
+    if task_id:
+        source_condition = (
+            source_condition & (SourceRecord.task_id == int(task_id))
+        )
     source_urls = (
         select(func.group_concat(SourceRecord.source_url, "; "))
-        .where(SourceRecord.company_id == Company.id)
+        .where(source_condition)
         .correlate(Company)
         .scalar_subquery()
     )
@@ -139,6 +161,13 @@ def _iter_export_rows(filters: Dict[str, str]):
         statement = statement.where(Company.verification_status == status)
     if relevance:
         statement = statement.where(Company.relevance == relevance)
+    if task_id:
+        statement = statement.where(
+            Company.id.in_(
+                select(TaskCompany.company_id)
+                .where(TaskCompany.task_id == int(task_id))
+            )
+        )
     statement = statement.order_by(Company.id)
     with SessionLocal() as session:
         result = session.execute(statement.execution_options(yield_per=1000))

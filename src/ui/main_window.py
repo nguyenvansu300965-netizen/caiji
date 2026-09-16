@@ -142,6 +142,8 @@ class MainWindow(QMainWindow):
         filters = QHBoxLayout()
         self.filter_keyword = QLineEdit()
         self.filter_keyword.setPlaceholderText("公司名称")
+        self.filter_task = QComboBox()
+        self.filter_task.addItem("全部任务", "")
         self.filter_country = QLineEdit()
         self.filter_country.setPlaceholderText("国家/地区")
         self.filter_source = QComboBox()
@@ -162,6 +164,7 @@ class MainWindow(QMainWindow):
         self.filter_relevance.addItem("中相关", "medium")
         self.filter_relevance.addItem("低相关", "low")
         filters.addWidget(QLabel("筛选"))
+        filters.addWidget(self.filter_task)
         filters.addWidget(self.filter_keyword)
         filters.addWidget(self.filter_country)
         filters.addWidget(self.filter_source)
@@ -276,6 +279,15 @@ class MainWindow(QMainWindow):
 
     def refresh_tasks(self) -> None:
         tasks = self.collector.list_tasks()
+        selected_task_id = self.filter_task.currentData() if hasattr(self, "filter_task") else ""
+        self.filter_task.blockSignals(True)
+        self.filter_task.clear()
+        self.filter_task.addItem("全部任务", "")
+        for task in tasks:
+            self.filter_task.addItem("{} (#{})".format(task.name, task.id), str(task.id))
+        index = self.filter_task.findData(selected_task_id)
+        self.filter_task.setCurrentIndex(index if index >= 0 else 0)
+        self.filter_task.blockSignals(False)
         self.task_table.setRowCount(len(tasks))
         for row, task in enumerate(tasks):
             values = [
@@ -294,6 +306,7 @@ class MainWindow(QMainWindow):
 
     def _filters(self):
         return {
+            "task_id": self.filter_task.currentData(),
             "keyword": self.filter_keyword.text().strip(),
             "country": self.filter_country.text().strip(),
             "source_type": self.filter_source.currentData(),
