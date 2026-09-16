@@ -80,7 +80,7 @@ class MainWindow(QMainWindow):
         self.query.setPlaceholderText(
             "Overture：输入企业名称或行业分类关键词\n"
             "OSM：输入名称/行业关键词，或标签 key=value\n"
-            "Google Places：输入产品或行业关键词\n"
+            "Google Places：每行输入一个产品或行业关键词，可输入多个\n"
             "公开网页：每行输入一个获准采集的企业页面 URL"
         )
         form.addRow("任务名称", self.task_name)

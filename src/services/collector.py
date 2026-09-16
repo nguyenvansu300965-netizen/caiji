@@ -169,9 +169,12 @@ class CollectorService:
                         buffer.append(lead)
                     else:
                         task.invalid_count += 1
-                    if len(buffer) >= settings.batch_size:
+                    remaining = max(task.target_count - task.collected, 1)
+                    if len(buffer) >= min(settings.batch_size, remaining):
                         self._flush_buffer(session, task, buffer)
                         self._notify(callback, task, "")
+                        if task.collected >= task.target_count:
+                            break
                 if buffer:
                     self._flush_buffer(session, task, buffer)
                 task.status = "completed"

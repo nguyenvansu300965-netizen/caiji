@@ -33,3 +33,30 @@ def test_mobile_number_is_not_classified_as_business_phone():
     )
     assert lead.is_business_phone is False
     assert lead.verification_status == "mobile"
+
+
+def test_international_number_is_parsed_globally_despite_task_country():
+    lead = normalize_lead(
+        LeadRecord(
+            company_name="Global Example",
+            phone="+91 22 1234 5678",
+            country="DE",
+            source_url="https://example.com",
+            source_type="test",
+        )
+    )
+    assert lead.normalized_phone == "+912212345678"
+    assert lead.verification_status == "verified"
+
+
+def test_local_number_supports_global_country_names():
+    lead = normalize_lead(
+        LeadRecord(
+            company_name="India Example",
+            phone="022 1234 5678",
+            country="印度",
+            source_url="https://example.com",
+            source_type="test",
+        )
+    )
+    assert lead.normalized_phone == "+912212345678"
