@@ -8,6 +8,7 @@ from PySide6.QtWidgets import (
     QCheckBox,
     QFileDialog,
     QFormLayout,
+    QGroupBox,
     QHBoxLayout,
     QHeaderView,
     QLabel,
@@ -27,6 +28,7 @@ from PySide6.QtWidgets import (
 
 from src.services.collector import CollectorService
 from src.services.exporter import count_companies, export_companies, query_companies
+from src.sources.trade_taxonomy import generate_map_keywords
 
 
 class ProgressBridge(QObject):
@@ -61,9 +63,11 @@ class MainWindow(QMainWindow):
     def _build_tasks_tab(self) -> QWidget:
         page = QWidget()
         layout = QVBoxLayout(page)
-        form = QFormLayout()
+        search_box = QGroupBox("搜索条件")
+        form = QFormLayout(search_box)
         self.task_name = QLineEdit()
-        self.task_name.setPlaceholderText("例如：德国机械设备经销商")
+        self.task_name.setPlaceholderText("例如：中国大型交易企业")
+        self.task_name.setToolTip("用于区分任务，建议包含国家和采集目的")
         self.source = QComboBox()
         self.source.addItem(
             "多来源泛采集（Overture + OSM + Google可选）", "multi"
@@ -73,8 +77,13 @@ class MainWindow(QMainWindow):
         self.source.addItem("OpenStreetMap 国家PBF（大批量）", "osm_pbf")
         self.source.addItem("公开企业网页", "public_web")
         self.source.addItem("Google Places 官方 API（注意存储条款）", "google_places")
+        self.source.setToolTip("选择数据来源。想扩大地图企业覆盖，优先使用多来源或 Google Places")
         self.country = QLineEdit()
-        self.country.setPlaceholderText("Overture/OSM：国家、城市或地区，建议用城市缩小范围")
+        self.country.setPlaceholderText("例如：中国、越南、上海；不要填写关键词")
+        self.country.setToolTip("地图搜索区域。国家批量模式填写国家，普通模式可填写城市或地区")
+        self.trade_keywords = QLineEdit()
+        self.trade_keywords.setPlaceholderText("可选：自定义关键词，用逗号分隔")
+        self.trade_keywords.setToolTip("留空时使用内置的地图企业和大型交易关键词")
         self.query = QPlainTextEdit()
         self.query.setMaximumHeight(100)
         self.query.setPlaceholderText(
@@ -83,10 +92,21 @@ class MainWindow(QMainWindow):
             "Google Places：每行输入一个产品或行业关键词，可输入多个\n"
             "公开网页：每行输入一个获准采集的企业页面 URL"
         )
+        keyword_actions = QHBoxLayout()
+        keyword_actions.addWidget(self.query)
+        generate_keywords = QPushButton("生成地图搜索词")
+        generate_keywords.setToolTip("生成企业、批发、物流、港口和大宗商品等搜索词")
+        generate_keywords.clicked.connect(self.generate_keywords)
+        keyword_actions.addWidget(generate_keywords)
         form.addRow("任务名称", self.task_name)
-        form.addRow("数据来源", self.source)
-        form.addRow("国家/地区", self.country)
-        form.addRow("关键词或网址", self.query)
+        form.addRow("采集来源", self.source)
+        form.addRow("搜索区域", self.country)
+        form.addRow("自定义词", self.trade_keywords)
+        form.addRow("搜索关键词", keyword_actions)
+        layout.addWidget(search_box)
+
+        control_box = QGroupBox("采集控制")
+        control_form = QFormLayout(control_box)
         self.bulk_mode = QCheckBox("国家批量模式（自动分片，支持多来源补充）")
         self.bulk_profile = QComboBox()
         self.bulk_profile.addItem("全部：所有带公开电话企业，采集后评分", "all")
@@ -98,15 +118,18 @@ class MainWindow(QMainWindow):
         self.target_count.setRange(1000, 1000000)
         self.target_count.setSingleStep(10000)
         self.target_count.setValue(100000)
-        form.addRow("批量采集", self.bulk_mode)
-        form.addRow("外贸相关性", self.bulk_profile)
-        form.addRow("目标数量", self.target_count)
-        layout.addLayout(form)
+        self.bulk_mode.setToolTip("适合 Overture 或多来源全国采集；Google Places 会消耗较多配额")
+        self.bulk_profile.setToolTip("用于相关性评分，不会限制地图企业原始搜索结果")
+        self.target_count.setToolTip("达到这个数量后停止；实际数量取决于数据源是否有更多有效企业")
+        control_form.addRow("采集范围", self.bulk_mode)
+        control_form.addRow("相关性评分", self.bulk_profile)
+        control_form.addRow("目标客户数", self.target_count)
+        layout.addWidget(control_box)
 
         buttons = QHBoxLayout()
         for text, handler in (
-            ("创建并开始", self.create_and_start),
-            ("继续/开始", self.start_selected),
+            ("新建并开始", self.create_and_start),
+            ("继续选中任务", self.start_selected),
             ("暂停", self.pause_selected),
             ("取消", self.cancel_selected),
             ("重试失败任务", self.retry_selected),
@@ -135,6 +158,18 @@ class MainWindow(QMainWindow):
         splitter.setSizes([430, 130])
         layout.addWidget(splitter)
         return page
+
+    def generate_keywords(self) -> None:
+        custom = self.trade_keywords.text().strip()
+        keywords = generate_map_keywords(self.bulk_profile.currentData())
+        if custom:
+            keywords = list(dict.fromkeys(
+                value.strip()
+                for value in custom.replace("，", ",").split(",")
+                if value.strip()
+            ))
+        self.query.setPlainText("\n".join(keywords))
+        self._append_log("已生成 {} 个地图企业发现关键词".format(len(keywords)))
 
     def _build_results_tab(self) -> QWidget:
         page = QWidget()

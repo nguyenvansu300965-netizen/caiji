@@ -1,8 +1,19 @@
 from src.sources.trade_taxonomy import (
+    generate_map_keywords,
+    generate_trade_keywords,
     score_commodity_relevance,
     score_trade_relevance,
     terms_for_profile,
 )
+
+
+def test_generates_broad_map_business_keywords():
+    keywords = generate_map_keywords()
+    assert "company" in keywords
+    assert "factory" in keywords
+    assert "supplier" in keywords
+    assert "贸易公司" in keywords
+    assert len(keywords) == len(set(keywords))
 
 
 def test_all_profile_uses_single_unfiltered_pass():
